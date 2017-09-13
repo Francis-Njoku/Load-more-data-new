@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scho-login{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.scho-login h1{
+	background: #70b234;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.scho-login input[type="text"],
+.scho-login input[type="date"],
+.scho-login input[type="datetime"],
+.scho-login input[type="password"],
+
+.scho-login input[type="email"],
+.scho-login input[type="number"],
+.scho-login input[type="search"],
+.scho-login input[type="time"],
+.scho-login input[type="url"],
+.scho-login textarea,
+.scho-login select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.scho-login input[type="text"]:focus,
+.scho-login input[type="date"]:focus,
+.scho-login input[type="datetime"]:focus,
+.scho-login input[type="email"]:focus,
+.scho-login input[type="number"]:focus,
+.scho-login input[type="search"]:focus,
+.scho-login input[type="time"]:focus,
+.scho-login input[type="url"]:focus,
+.scho-login input[type="password"]:focus,
+.scho-login textarea:focus,
+.scho-login select:focus
+{
+	box-shadow: 0 0 5px #70b234;
+	padding: 3%;
+	border: 1px solid #70b234;
+}
+
+.scho-login input[type="submit"],
+.scho-login input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #70b234;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+	font-size: 25px;
+}
+.scho-login input[type="submit"]:hover,
+.scho-login input[type="button"]:hover{
+	background: #9df64c;
+}
